@@ -23,6 +23,7 @@ namespace RszTool
                 GameName.dmc5 => GameVersion.dmc5,
                 GameName.mhrise => GameVersion.mhrise,
                 GameName.sf6 => GameVersion.sf6,
+                GameName.mhwilds => GameVersion.mhwilds,
                 _ => GameVersion.unknown,
             };
             RszParser = RszParser.GetInstance($"rsz{gameName}.json");
